@@ -1,0 +1,24 @@
+{
+  "name": "qoliber/m2-payment-restrictions",
+  "version": "1.0.0",
+  "source": {
+    "type": "git",
+    "url": "git@github.com:qoliber/m2-payment-restrictions.git",
+    "reference": "master"
+  },
+  "authors": [
+    {
+      "name": "qoliber",
+      "email": "info@qoliber.com"
+    }
+  ],
+  "license": "See LICENSE.md or https://store.qoliber.com/license/",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Qoliber\\PaymentRestrictions\\": ""
+    }
+  }
+}
