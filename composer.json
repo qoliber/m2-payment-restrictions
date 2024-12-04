@@ -12,7 +12,7 @@
       "email": "info@qoliber.com"
     }
   ],
-  "license": "See LICENSE.md or https://store.qoliber.com/license/",
+  "license": "MIT",
   "autoload": {
     "files": [
       "registration.php"
