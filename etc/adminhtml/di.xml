@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author      qoliber <info@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Config\Model\Config\Structure\Data">
+        <plugin name="qoliber_payment_restrictions_add_filter_field"
+                type="Qoliber\PaymentRestrictions\Plugin\Config\AddFilterField"/>
+    </type>
+</config>
